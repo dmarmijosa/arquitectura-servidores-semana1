@@ -1,0 +1,36 @@
+{
+  "name": "semana1",
+  "version": "1.0.0",
+  "description": "Esta es la aplicación de la semana 1 de la materia de Arquitectura de servidores",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bin/www.js",
+    "dev": "nodemon app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmarmijosa/Arquitectura-servidores-semana1.git"
+  },
+  "keywords": [
+    "#express",
+    "#nodejs",
+    "#typescript"
+  ],
+  "author": "Danny Armijos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmarmijosa/Arquitectura-servidores-semana1/issues"
+  },
+  "homepage": "https://github.com/dmarmijosa/Arquitectura-servidores-semana1#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
