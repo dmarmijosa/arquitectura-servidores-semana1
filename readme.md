@@ -87,10 +87,10 @@ employees-api/
 ├── config-postman/
 │   └── *.collection.json   // Configuración de rutas para postman
 ├── controllers/
-│   └── employeesController.ts // Controladores de empleados
+│   └── employees.controller.ts // Controladores de empleados
 ├── middlewares/            // Middlewares de Express (vacío por defecto)
 ├── models/
-│   └── employeeModel.ts    // Modelo de datos de empleado
+│   └── employee.model.ts    // Modelo de datos de empleado
 ├── tests/
 │   └── employees.test.ts   // Pruebas unitarias
 ├── package.json
